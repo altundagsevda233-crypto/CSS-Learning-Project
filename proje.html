@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime İzle</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 24px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+
+        .animebox {
+            width: 200px;
+            height: 400px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+            cursor: pointer;
+
+
+        }
+
+        .animebox img {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .animebox h1 {
+            margin: 10px;
+            color: #333;
+        }
+
+        .animebox:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #333;
+            font-style: italic;
+            color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="https://i.pinimg.com/736x/ab/02/af/ab02af7302f7ae6f962ed1327148831a.jpg" alt="Site Logo">
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="anime.html">Anime İzle</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <div class="title">
+        <h1>En Popüler Animer</h1>
+    </div>
+    <div class="container">
+
+        <div class="animebox">
+            <img src="https://i.pinimg.com/1200x/3a/8c/63/3a8c63737ae2d94f9d4f09f477e3df34.jpg"
+                alt="Naruto animesinin kapak resmi">
+            <h1>Naruto</h1>
+        </div>
+        <div class="animebox">
+            <img src="https://i.pinimg.com/736x/c9/87/a2/c987a28ac0b72afc74b1984dd7717c2a.jpg"
+                alt="One Piece animesinin kapak resmi">
+            <h1>One Piece</h1>
+        </div>
+        <div class="animebox">
+            <img src="https://i.pinimg.com/736x/67/b6/90/67b690140f09b858dd942c7a35e434e2.jpg"
+                alt="Attack on Titan animesinin kapak resmi">
+            <h1>Attack on Titan</h1>
+        </div>
+        <div class="animebox">
+            <img src="https://i.pinimg.com/1200x/92/b3/95/92b395bf405dcec2c942de65a085e041.jpg"
+                alt="Dragon Ball animesinin kapak resmi">
+            <h1>Dragon Ball</h1>
+        </div>
+        <div class="animebox">
+            <img src="https://i.pinimg.com/1200x/7e/54/37/7e5437e9362cf37d9058b9d11118fb8f.jpg"
+                alt="One Punch Man animesinin kapak resmi">
+            <h1>One Punch Man</h1>
+        </div>
+    </div>
+    <footer>
+        <p>© 2022 Anime İzle. Tüm hakları saklıdır.</p>
+    </footer>
+
+
+</body>
+
+</html>
